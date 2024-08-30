@@ -1,6 +1,7 @@
 import os
 import random
 import string
+import sys
 
 def generate_password(length=12):
     characters = string.ascii_letters + string.digits + string.punctuation
