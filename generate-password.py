@@ -14,3 +14,4 @@ if __name__ == "__main__":
     print(f"Password generated and stored in environment variable.")
     print(f"new pass1 in env : {os.environ['NEW_PASSWORD']}")
     print(f"new pass2 in env : {os.environ.get('NEW_PASSWORD')}")
+    sys.exit(4)
